@@ -12,3 +12,11 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+Answer:
+If the length of the input provided is 1, the function returns the value of the
+single item. If not, it sets a new variable "foo" to a call of the mystery
+function using all values of the input except the first and last values. Then
+if foo evaluates to be greater than the first value in the input, the function
+returns foo. Else the function returns the first value of the input. Through
+this process, the function is finding the maximum value in the input.
